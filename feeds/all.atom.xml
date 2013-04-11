@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-04-10T20:00:00-07:00</updated><entry><title></title><link href="http://internet-in-a-box.org/.html" rel="alternate"></link><updated>2013-04-10T20:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-04-10:.html</id><summary type="html">&lt;p&gt;We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.&lt;/p&gt;
+&lt;img alt="static/images/Seagate_WP_on_fingertips.jpg" src="static/images/Seagate_WP_on_fingertips.jpg" /&gt;
+&lt;p&gt;The device includes Wikipedia in 40 languages, a library of 40,000 e-books, most of the world's open source software and source code, hundreds of hours of instructional videos, and world-wide mapping down to street level.&lt;/p&gt;
+&lt;p&gt;We can deploy a &amp;quot;knowledge hotspot&amp;quot; anywhere in the world - even under solar power.&lt;/p&gt;
+&lt;p&gt;This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We anticipate an initial trial release within four months.&lt;/p&gt;
+&lt;p&gt;Project lead: Braddock Gaskill - &lt;a class="reference external" href="mailto:braddock&amp;#64;braddock.com"&gt;braddock&amp;#64;braddock.com&lt;/a&gt;&lt;/p&gt;
+</summary></entry></feed>

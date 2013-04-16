@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-04-10T20:00:00-07:00</updated><entry><title></title><link href="http://internet-in-a-box.org/.html" rel="alternate"></link><updated>2013-04-10T20:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-04-10:.html</id><summary type="html">&lt;p&gt;We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.&lt;/p&gt;
-&lt;img alt="static/images/Seagate_WP_on_fingertips.jpg" src="static/images/Seagate_WP_on_fingertips.jpg" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-04-11T00:00:00-07:00</updated><entry><title></title><link href="http://internet-in-a-box.org/.html" rel="alternate"></link><updated>2013-04-11T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-04-11:.html</id><summary type="html">&lt;p&gt;We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.&lt;/p&gt;
+&lt;p&gt;&lt;img src="static/images/Seagate_WP_on_fingertips.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;The device includes Wikipedia in 40 languages, a library of 40,000 e-books, most of the world's open source software and source code, hundreds of hours of instructional videos, and world-wide mapping down to street level.&lt;/p&gt;
-&lt;p&gt;We can deploy a &amp;quot;knowledge hotspot&amp;quot; anywhere in the world - even under solar power.&lt;/p&gt;
+&lt;p&gt;We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.&lt;/p&gt;
 &lt;p&gt;This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We anticipate an initial trial release within four months.&lt;/p&gt;
-&lt;p&gt;Project lead: Braddock Gaskill - &lt;a class="reference external" href="mailto:braddock&amp;#64;braddock.com"&gt;braddock&amp;#64;braddock.com&lt;/a&gt;&lt;/p&gt;
-</summary></entry></feed>
+&lt;p&gt;Project lead: &lt;strong&gt;Braddock Gaskill&lt;/strong&gt; - &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;A Quick Overview and Demo&lt;/h2&gt;
+&lt;p&gt;A ten minute introduction and demo of our current capabilities:&lt;/p&gt;
+&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/KAADBRZVncs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;Presentation to SGVLUG&lt;/h2&gt;
+&lt;p&gt;On April 11th we presented to the San Gabriel Valley Linux Users' Group (&lt;a href="http://sgvlug.org"&gt;http://sgvlug.org&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Video of the full presentation (about an hour - for highlights, see the "Quick Overview and Demo" video above).&lt;/p&gt;
+&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/pR2mL0HVUGU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Slides are available &lt;a href="201304_SGVLUG_Presentation.pdf"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;</summary></entry></feed>

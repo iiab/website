@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-        <title> - Internet-in-a-Box</title>
+        <title>OLPC Hackathon - Internet-in-a-Box</title>
     <link href="http://fonts.googleapis.com/css?family=Arimo:400,700|Inika" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="http://internet-in-a-box.org/theme/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="http://internet-in-a-box.org/theme/pastie.css" />
@@ -36,9 +36,36 @@
     <div class="container">
       <div class="row">
         <div class="span12">
-          <ul>
-    <li>misc</li>
-</ul>
+          <div id="content">
+    <div class="header">
+        <h1>OLPC Hackathon</h1>
+    </div>
+    <p class="meta"><small><span><a href="http://internet-in-a-box.org/author/braddock-gaskill/">Braddock Gaskill</a> - </span><span>Mon 13 May 2013</span> - <span class="tags"></span></small></p>
+        <div class="entry-content">
+        <img alt="|filename|/images/IMG_20130512_212124.jpg" src="http://internet-in-a-box.org/static/images/IMG_20130512_212124.jpg" />
+<p>I've been working with a really great group of half a dozen OLPC
+volunteers up here in a big farmhouse in Ontario, Canada.</p>
+<p>This group is developing a server configuration called School Server
+XS-CE.  Their server provides DHCP, web filtering, chat, NAT firewall,
+backup, and other services for schools using the OLPC XO laptops.  Their
+baseline hardware is to install on a spare OLPC XO Laptop itself with a
+USB Ethernet dongle for upstream.</p>
+<p>They are very keen to integrate Internet-in-a-Box.</p>
+<p>I have IIAB running on an XO Laptop with data on a USB hard drive, and a
+written procedure for installing it on the School Server.</p>
+<p>However, IIAB is not yet ready to be packaged and deployed in this way,
+on the same machine as the School Server.  It is easier for us to deploy
+as a stand-alone network appliance which the School Server discovers on
+the network and links to until we are more mature.  The OLPC guys have
+written a CGI script which detects if an IIAB is on the LAN and provides
+a link to it.</p>
+<p>The new version of School Server is set to be deployed in the next few
+months.  There are 10,000 older School Servers already deployed in the
+world serving maybe a million kids, so this is a large market for us.</p>
+<p>We are generating a lot of interest.</p>
+
+        </div><!-- /.entry-content -->
+        </div>
         </div>
       </div>
 

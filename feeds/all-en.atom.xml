@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-04-11T00:00:00-07:00</updated><entry><title></title><link href="http://internet-in-a-box.org/.html" rel="alternate"></link><updated>2013-04-11T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-04-11:.html</id><summary type="html">&lt;p&gt;We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.&lt;/p&gt;
-&lt;p&gt;&lt;img src="static/images/Seagate_WP_on_fingertips.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;The device includes Wikipedia in 40 languages, a library of 40,000 e-books, most of the world's open source software and source code, hundreds of hours of instructional videos, and world-wide mapping down to street level.&lt;/p&gt;
-&lt;p&gt;We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.&lt;/p&gt;
-&lt;p&gt;This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We anticipate an initial trial release within four months.&lt;/p&gt;
-&lt;p&gt;Project lead: &lt;strong&gt;Braddock Gaskill&lt;/strong&gt; - &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#46;&amp;#99;&amp;#111;&amp;#109;"&gt;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#98;&amp;#114;&amp;#97;&amp;#100;&amp;#100;&amp;#111;&amp;#99;&amp;#107;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;A Quick Overview and Demo&lt;/h2&gt;
-&lt;p&gt;A ten minute introduction and demo of our current capabilities:&lt;/p&gt;
-&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/KAADBRZVncs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;h2&gt;Presentation to SGVLUG&lt;/h2&gt;
-&lt;p&gt;On April 11th we presented to the San Gabriel Valley Linux Users' Group (&lt;a href="http://sgvlug.org"&gt;http://sgvlug.org&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Video of the full presentation (about an hour - for highlights, see the "Quick Overview and Demo" video above).&lt;/p&gt;
-&lt;iframe width="640" height="360" src="http://www.youtube.com/embed/pR2mL0HVUGU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Slides are available &lt;a href="201304_SGVLUG_Presentation.pdf"&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;</summary></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-05-13T00:00:00-07:00</updated><entry><title>OLPC Hackathon</title><link href="http://internet-in-a-box.org/olpc-hackathon.html" rel="alternate"></link><updated>2013-05-13T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-05-13:olpc-hackathon.html</id><summary type="html">&lt;img alt="|filename|/images/IMG_20130512_212124.jpg" src="http://internet-in-a-box.org/static/images/IMG_20130512_212124.jpg" /&gt;
+&lt;p&gt;I've been working with a really great group of half a dozen OLPC
+volunteers up here in a big farmhouse in Ontario, Canada.&lt;/p&gt;
+&lt;p&gt;This group is developing a server configuration called School Server
+XS-CE.  Their server provides DHCP, web filtering, chat, NAT firewall,
+backup, and other services for schools using the OLPC XO laptops.  Their
+baseline hardware is to install on a spare OLPC XO Laptop itself with a
+USB Ethernet dongle for upstream.&lt;/p&gt;
+&lt;p&gt;They are very keen to integrate Internet-in-a-Box.&lt;/p&gt;
+&lt;p&gt;I have IIAB running on an XO Laptop with data on a USB hard drive, and a
+written procedure for installing it on the School Server.&lt;/p&gt;
+&lt;p&gt;However, IIAB is not yet ready to be packaged and deployed in this way,
+on the same machine as the School Server.  It is easier for us to deploy
+as a stand-alone network appliance which the School Server discovers on
+the network and links to until we are more mature.  The OLPC guys have
+written a CGI script which detects if an IIAB is on the LAN and provides
+a link to it.&lt;/p&gt;
+&lt;p&gt;The new version of School Server is set to be deployed in the next few
+months.  There are 10,000 older School Servers already deployed in the
+world serving maybe a million kids, so this is a large market for us.&lt;/p&gt;
+&lt;p&gt;We are generating a lot of interest.&lt;/p&gt;
+</summary></entry><entry><title>Deployed! Twice! News!</title><link href="http://internet-in-a-box.org/deployed-twice-news.html" rel="alternate"></link><updated>2013-05-03T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-05-03:deployed-twice-news.html</id><summary type="html">&lt;img alt="|filename|/images/XOSetup1.jpg" src="http://internet-in-a-box.org/static/images/XOSetup1.jpg" /&gt;
+&lt;p&gt;I just got back from the first Internet-in-a-Box deployment at a school
+for kids in a women's shelter.  They were thrilled to have the
+Internet-in-a-Box and a dozen One Laptop Per Child laptops.&lt;/p&gt;
+&lt;p&gt;Everything worked out of the box.  I set them up with a GoFlex Home
+wired device and a WRT54G access point.  The only hiccup is that the
+OLPC laptops (all slow first model units from circa 2006) struggled a
+bit playing the Khan Academy videos.&lt;/p&gt;
+&lt;p&gt;They have promised to give both us and the OLPC group a lot of regular
+feedback.&lt;/p&gt;
+&lt;p&gt;Our second deployment is now on its way to Sierra Leone.  I dropped it
+in the mail yesterday, and our local contact will be flying with it to
+Sierra Leone on Wednesday.  He administers IT for half a dozen schools
+there.&lt;/p&gt;
+&lt;p&gt;Next week I am flying to Toronto for a hackathon with the OLPC &amp;quot;School
+Server&amp;quot; team to find ways to integrate Internet-in-a-Box with their
+efforts.  They administer over 10,000 school servers world wide and are
+working on a new version.&lt;/p&gt;
+&lt;p&gt;I've been a bit introverted and haven't been issuing a lot of group
+tasks.  There has been a lot going on and I've been keeping my head down
+and fallen back to my habit of just getting all these things done myself.&lt;/p&gt;
+&lt;p&gt;But, I DO need help on IIAB.  After Toronto next week I simply cannot
+afford to continue to spend this much time (and money) on it.&lt;/p&gt;
+</summary></entry><entry><title>Internet-in-a-Box Deployment Opportunities</title><link href="http://internet-in-a-box.org/internet-in-a-box-deployment-opportunities.html" rel="alternate"></link><updated>2013-04-22T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-04-22:internet-in-a-box-deployment-opportunities.html</id><summary type="html">&lt;p&gt;Just a note to keep you all in the loop on recent developments with the
+Internet-in-a-Box.&lt;/p&gt;
+&lt;p&gt;We are planning to make an initial deployment with the OLPC folks to a
+school at a women's shelter in the LA area in the next few weeks. OLPC
+will be setting up the school with 10 to 20 XO laptops (the shelter does
+NOT want internet access, but are very interested in IIAB).&lt;/p&gt;
+&lt;p&gt;This will be a &amp;quot;Wired&amp;quot; device (GoFlex Home) connected either to their
+own network or via a wireless router (like I had for the LUG
+presentation).  I can be there on-site to help with setup, and OLPC has
+a volunteer who goes there weekly who can monitor things.&lt;/p&gt;
+&lt;p&gt;Separately, a network engineer from Sierra Leone who made it to the LUG
+wants to deploy to two schools when he returns there in mid-May.  The
+schools have existing computers and a LAN, so this will be another Wired
+device deployment.&lt;/p&gt;
+&lt;p&gt;The OLPC engineer working in Lesotho and Rwanda also wants a device to
+try himself in early May, but may not be back to Africa to deploy it
+until January.&lt;/p&gt;
+&lt;p&gt;I am talking with developers on two separate OLPC server projects (seems
+to be an internal schism).  One fork has _10,000_ installed servers,
+mostly in South America.  I would like to make IIAB an installable
+&amp;quot;module&amp;quot; that can work with their existing server deployments, maybe
+with the addition of an external hard drive.&lt;/p&gt;
+&lt;p&gt;OLPC Socal is giving me an XO-1 laptop this week on indefinite loan to
+test with.&lt;/p&gt;
+</summary></entry></feed>

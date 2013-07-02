@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/misc.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-05-13T00:00:00-07:00</updated><entry><title>OLPC Hackathon</title><link href="http://internet-in-a-box.org/olpc-hackathon.html" rel="alternate"></link><updated>2013-05-13T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-05-13:olpc-hackathon.html</id><summary type="html">&lt;img alt="|filename|/images/IMG_20130512_212124.jpg" src="http://internet-in-a-box.org/static/images/IMG_20130512_212124.jpg" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/misc.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-07-13T00:00:00-07:00</updated><entry><title>Successful deployment in Sierra Leone</title><link href="http://internet-in-a-box.org/successful-deployment-in-sierra-leone.html" rel="alternate"></link><updated>2013-07-13T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-07-13:successful-deployment-in-sierra-leone.html</id><summary type="html">&lt;p&gt;Finally heard back from the school in Sierra Leone!  Looks like they
+are up and running well with Internet-in-a-Box.  Sent us some nice
+pictures of the students using it to learn about osmosis.&lt;/p&gt;
+&lt;p&gt;Our contact wants more IIAB devices for the other schools he works
+with there.&lt;/p&gt;
+&lt;p&gt;So we have two successful deployments now.  The Pakistan deployment
+got delayed because of exceptional shipping problems, but should
+happen later this summer.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;img alt="|filename|/images/IMAG0384.jpg" src="http://internet-in-a-box.org/static/images/IMAG0384.jpg" /&gt;
+&lt;hr class="docutils" /&gt;
+&lt;img alt="|filename|/images/IMAG0385.jpg" src="http://internet-in-a-box.org/static/images/IMAG0385.jpg" /&gt;
+&lt;hr class="docutils" /&gt;
+&lt;img alt="|filename|/images/IMAG0389.jpg" src="http://internet-in-a-box.org/static/images/IMAG0389.jpg" /&gt;
+</summary></entry><entry><title>OLPC Hackathon</title><link href="http://internet-in-a-box.org/olpc-hackathon.html" rel="alternate"></link><updated>2013-05-13T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-05-13:olpc-hackathon.html</id><summary type="html">&lt;img alt="|filename|/images/IMG_20130512_212124.jpg" src="http://internet-in-a-box.org/static/images/IMG_20130512_212124.jpg" /&gt;
 &lt;p&gt;I've been working with a really great group of half a dozen OLPC
 volunteers up here in a big farmhouse in Ontario, Canada.&lt;/p&gt;
 &lt;p&gt;This group is developing a server configuration called School Server

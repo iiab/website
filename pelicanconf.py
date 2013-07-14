@@ -26,6 +26,7 @@ INDEX_PAGE_TITLE = "News"
 MENUITEMS = ( ('Home', '/'),
               ('News', '/news.html'),
               ('About', '/pages/about.html'),
+              ('Contributing', '/pages/contributing.html'),
             )
 
 FILES_TO_COPY = (("CNAME","CNAME"), ("201304_SGVLUG_Presentation.pdf", "201304_SGVLUG_Presentation.pdf"))

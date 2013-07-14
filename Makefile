@@ -44,6 +44,7 @@ $(OUTPUTDIR)/%.html:
 
 clean:
 	find $(OUTPUTDIR) -mindepth 1 -delete
+	touch $(OUTPUTDIR)/.empty
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)

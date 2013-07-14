@@ -1,0 +1,6 @@
+output/
+*.pid
+*.pyc
+
+# Vim swap files
+*.swp

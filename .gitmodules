@@ -1,0 +1,3 @@
+[submodule "theme/bootlex"]
+	path = theme/bootlex
+	url = git@github.com:iiab/bootlex.git

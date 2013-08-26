@@ -9,7 +9,7 @@ The device includes Wikipedia in 40 languages, a library of 40,000 e-books, most
 
 We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.
 
-This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We anticipate an initial trial release within four months.
+This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We have successful trial deployments in LA, Sierra Leone, and Pakistan.
 
 On April 11th we presented to the `San Gabriel Valley Linux Users' Group <http://sgvlug.org>`_.
 

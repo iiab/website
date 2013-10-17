@@ -3,6 +3,8 @@ Successful deployment in Sierra Leone
 
 :date: 2013-07-01
 
+.. image:: |filename|/images/201305-Sierra_Leone_Cropped.jpg
+
 Finally heard back from the school in Sierra Leone!  Looks like they
 are up and running well with Internet-in-a-Box.  Sent us some nice
 pictures of the students using it to learn about osmosis.

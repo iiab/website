@@ -3,6 +3,8 @@ Four new Internet-in-a-Box Deployemnts
 
 :date: 2013-10-17
 
+.. image:: |filename|/images/20131017-deployments.jpg
+
 Four new Internet-in-a-Box devices are now on their way to school
 deployments in Sierra Leone (2), Malawi, and Kiribati!
 
@@ -16,5 +18,4 @@ https://www.facebook.com/UnleashKids
 
 ----
 
-.. image:: |filename|/images/20131017-deployments.jpg
 

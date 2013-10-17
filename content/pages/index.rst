@@ -13,7 +13,7 @@ The device includes Wikipedia in 37 languages, a library of 40,000 e-books, most
 
 We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.
 
-This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We anticipate an initial trial release within four months.
+This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work.
 
 A ten minute introduction and demo of our current capabilities:
 

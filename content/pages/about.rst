@@ -3,13 +3,17 @@ About
 
 :date: 2013-04-11
 
+Project lead contact: **Braddock Gaskill** - <mailto:braddock@braddock.com>
+
 We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.
 
-The device includes Wikipedia in 40 languages, a library of 40,000 e-books, most of the world's open source software and source code, hundreds of hours of instructional videos, and world-wide mapping down to street level.
+The device includes Wikipedia in 37 languages, a library of 40,000 e-books, most of the world's open source software and source code, hundreds of hours of instructional videos, and world-wide mapping down to street level.
 
 We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.
 
-This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. We have successful trial deployments in LA, Sierra Leone, and Pakistan.
+This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. 
+
+We have nine trial deployments at schools in Sierra Leone (3), Pakistan, Kiribati, Malawi, Haiti (2), and Los Angeles.
 
 On April 11th we presented to the `San Gabriel Valley Linux Users' Group <http://sgvlug.org>`_.
 

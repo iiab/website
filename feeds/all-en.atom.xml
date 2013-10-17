@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-10-17T00:00:00-07:00</updated><entry><title>Four new Internet-in-a-Box Deployemnts</title><link href="http://internet-in-a-box.org/four-new-internet-in-a-box-deployemnts.html" rel="alternate"></link><updated>2013-10-17T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-10-17:four-new-internet-in-a-box-deployemnts.html</id><summary type="html">&lt;p&gt;Four new Internet-in-a-Box devices are now on their way to school
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Internet-in-a-Box</title><link href="http://internet-in-a-box.org/" rel="alternate"></link><link href="http://internet-in-a-box.org/feeds/all-en.atom.xml" rel="self"></link><id>http://internet-in-a-box.org/</id><updated>2013-10-17T00:00:00-07:00</updated><entry><title>Four new Internet-in-a-Box Deployemnts</title><link href="http://internet-in-a-box.org/four-new-internet-in-a-box-deployemnts.html" rel="alternate"></link><updated>2013-10-17T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-10-17:four-new-internet-in-a-box-deployemnts.html</id><summary type="html">&lt;img alt="|filename|/images/20131017-deployments.jpg" src="http://internet-in-a-box.org/static/images/20131017-deployments.jpg" /&gt;
+&lt;p&gt;Four new Internet-in-a-Box devices are now on their way to school
 deployments in Sierra Leone (2), Malawi, and Kiribati!&lt;/p&gt;
 &lt;p&gt;These join our prior deployments in Haiti (2), Sierra Leone, Pakistan,
 and Los Angeles.&lt;/p&gt;
@@ -8,8 +9,11 @@ containing Internet-in-a-Box as a bonus with some of their 400 One
 Laptop Per Child XO-4 laptops now for sale.
 &lt;a class="reference external" href="https://www.facebook.com/UnleashKids"&gt;https://www.facebook.com/UnleashKids&lt;/a&gt;&lt;/p&gt;
 &lt;hr class="docutils" /&gt;
-&lt;img alt="|filename|/images/20131017-deployments.jpg" src="http://internet-in-a-box.org/static/images/20131017-deployments.jpg" /&gt;
-</summary></entry><entry><title>Successful deployment in Sierra Leone</title><link href="http://internet-in-a-box.org/successful-deployment-in-sierra-leone.html" rel="alternate"></link><updated>2013-07-01T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-07-01:successful-deployment-in-sierra-leone.html</id><summary type="html">&lt;p&gt;Finally heard back from the school in Sierra Leone!  Looks like they
+&lt;div class="system-message"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;/home/braddock/repo/iiab_website/content/2013-10-17-more-deployments.rst&lt;/tt&gt;, line 19)&lt;/p&gt;
+Document may not end with a transition.&lt;/div&gt;
+</summary></entry><entry><title>Successful deployment in Sierra Leone</title><link href="http://internet-in-a-box.org/successful-deployment-in-sierra-leone.html" rel="alternate"></link><updated>2013-07-01T00:00:00-07:00</updated><author><name>Braddock Gaskill</name></author><id>tag:internet-in-a-box.org,2013-07-01:successful-deployment-in-sierra-leone.html</id><summary type="html">&lt;img alt="|filename|/images/201305-Sierra_Leone_Cropped.jpg" src="http://internet-in-a-box.org/static/images/201305-Sierra_Leone_Cropped.jpg" /&gt;
+&lt;p&gt;Finally heard back from the school in Sierra Leone!  Looks like they
 are up and running well with Internet-in-a-Box.  Sent us some nice
 pictures of the students using it to learn about osmosis.&lt;/p&gt;
 &lt;p&gt;Our contact wants more IIAB devices for the other schools he works

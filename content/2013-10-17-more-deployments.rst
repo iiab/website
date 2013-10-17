@@ -1,4 +1,4 @@
-Four new Internet-in-a-Box Deployemnts
+Four new Internet-in-a-Box Deployments
 ######################################
 
 :date: 2013-10-17

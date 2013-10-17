@@ -16,6 +16,4 @@ containing Internet-in-a-Box as a bonus with some of their 400 One
 Laptop Per Child XO-4 laptops now for sale.
 https://www.facebook.com/UnleashKids
 
-----
-
 

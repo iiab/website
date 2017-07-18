@@ -3,7 +3,7 @@ About
 
 :date: 2013-04-11
 
-Project lead contact: **Braddock Gaskill** - <mailto:braddock@braddock.com>
+Project lead contact: **Adam Holt** - <mailto:holt@laptop.org>
 
 We are building the Internet-in-a-Box - A small, inexpensive device which provides essential Internet resources without any Internet connection. It provides a local copy of a terabyte of the world's Free information.
 

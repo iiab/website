@@ -11,9 +11,9 @@ The device includes Wikipedia in 37 languages, a library of 40,000 e-books, most
 
 We can deploy a "knowledge hotspot" anywhere in the world - even under solar power.
 
-This Open Source project is being developed by volunteers in southern California. We are seeking schools and communities worldwide who would benefit from our work. 
+This Open Source project is being developed by volunteers in southern California and around the world. We are seeking schools and communities worldwide who would benefit from our work. 
 
-We have nine trial deployments at schools in Sierra Leone (3), Pakistan, Kiribati, Malawi, Haiti (2), and Los Angeles.
+We have more than a dozen trial deployments at schools in Sierra Leone, Pakistan, Kiribati, Malawi, Haiti, India, Ghana, Malaysia, Lebanon, Mexico, Dominican Republic, Los Angeles and Central America.
 
 On April 11th we presented to the `San Gabriel Valley Linux Users' Group <http://sgvlug.org>`_.
 

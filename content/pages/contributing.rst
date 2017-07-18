@@ -7,7 +7,7 @@ We welcome your help in making our project a success. There are many ways to get
 
 2. Join us on IRC:
 
-   `#sgvhak <https://webchat.freenode.net/?channels=#schoolserver>`_ on `freenode <https://www.freenode.net/>`_
+   `#schoolserver <https://webchat.freenode.net/?channels=#schoolserver>`_ on `freenode <https://www.freenode.net/>`_
 
 3. Look through our `GitHub Issues <https://github.com/iiab/iiab/issues>`_ and find a task that fits your skills:
 

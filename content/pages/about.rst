@@ -27,5 +27,5 @@ Slides are available here_.
 
 .. _here: |filename|/201304_SGVLUG_Presentation.pdf
 
-Project lead: **Braddock Gaskill** - <mailto:braddock@braddock.com>
+Project lead: **Adam Holt** - <mailto:holt@laptop.org>
 

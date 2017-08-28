@@ -1,18 +1,12 @@
-.. raw:: mediawiki
-
-   {{xsce}}
-
 How does Internet-in-a-Box (IIAB) help?
 ---------------------------------------
 
 Bring the power of a free Digital Library of Alexandria into the hands
 of any school worldwide! Internet-in-a-Box is also used in medical
 clinics and libraries. Might you want to \ `create your own
-Internet-in-a-Box? <https://opensource.com/article/17/5/internet-in-a-box-raspberry-pi>`__\ 
-`http://people.sugarlabs.org/~icarito/newsletter\_sugarlabs/ProofSLNewsP4.psf.pdf
-1 <http://people.sugarlabs.org/~icarito/newsletter_sugarlabs/ProofSLNewsP4.psf.pdf_1>`__
-`http://people.sugarlabs.org/~icarito/newsletter\_sugarlabs/ProofSLNewsP5.psf.pdf
-2 <http://people.sugarlabs.org/~icarito/newsletter_sugarlabs/ProofSLNewsP5.psf.pdf_2>`__
+Internet-in-a-Box? <https://opensource.com/article/17/5/internet-in-a-box-raspberry-pi>`__\
+`1 <http://people.sugarlabs.org/~icarito/newsletter_sugarlabs/ProofSLNewsP4.psf.pdf_1>`__
+`2 <http://people.sugarlabs.org/~icarito/newsletter_sugarlabs/ProofSLNewsP5.psf.pdf_2>`__
 
 If so, read about the original
 `Internet-in-a-Box <http://internet-in-a-box.org>`__ (rich open content
@@ -77,26 +71,59 @@ We'd like educators' suggestions especially -- how should kids best take
 advantage of these crown jewels of learning? Perhaps starting with
 OLPC/Sugar's laptop browser in places like:
 
-| ```http://box`` <http://box>`__\ ``            Your Internet-in-a-Box Library!``
-| ```http://box/usb`` <http://box/usb>`__\ ``        Content from USB sticks/drives, that teachers can ``\ ```insert``
-  ``anytime`` <#Can_teachers_display_their_own_content.3F>`__
-| ```http://box:3000`` <http://box:3000>`__\ ``       Kiwix (amazing content & videos, contained in searchable ZIM files)``
-| ```http://box:8008`` <http://box:8008>`__\ ``       KA Lite (Khan Academy videos & exercises, with its own content downloader)``
-| ```http://box:8080`` <http://box:8080>`__\ ``       E-book library, based on ``\ ```calibre-server`` <https://manual.calibre-ebook.com/generated/en/calibre-server.html>`__\ `` (http://box:8010 is also possible)``
-| ```http://box/maps`` <http://box/maps>`__\ ``       Future synonym for ``\ ```http://box/iiab/static/map.html`` <http://box/iiab/static/map.html>`__\ `` or ``\ ```http://box/modules/en-worldmap/map.html`` <http://box/modules/en-worldmap/map.html>`__
-| ```http://box/docs`` <http://box/docs>`__\ ``       Future synonym for ``\ ```http://box/nextcloud`` <http://box/nextcloud>`__\ `` or ``\ ```http://box/owncloud`` <http://box/owncloud>`__
-| ```http://box/wiki`` <http://box/wiki>`__\ ``       DokuWiki: collaborate on documents``
-| ```http://box/elgg`` <http://box/elgg>`__\ ``       Elgg social network for e-learning``
-| ```http://box/info`` <http://box/info>`__\ ``       IT support docs & eventually vids, offlined for all``
-| ```http://box/books`` <http://box/books>`__\ ``      Future synonym for ``\ ```http://box:8010`` <http://box:8010>`__\ `` or ``\ ```http://box:8080`` <http://box:8080>`__\ `` or ``\ ```http://box/pathagar`` <http://box/pathagar>`__
-| ```http://box/moodle`` <http://box/moodle>`__\ ``     Moodle 3.1 LTS (learning management system)``
-| ```http://box/wordpress`` <http://box/wordpress>`__\ ``  WordPress 4.8+ (blogging & community publishing)``
-| ```http://box/runestone`` <http://box/runestone>`__\ ``  Runestone Interactive Textbooks (``\ ```example`` <http://interactivepython.org/runestone/static/thinkcspy/index.html>`__\ ``)``
-| ```http://box/sugarizer`` <http://box/sugarizer>`__\ ``  Sugar Learning Platform originally from One Laptop Per Child``
 
-| ```http://box/admin`` <http://box/admin>`__\ ``               Admin Console: operators log in here, to improve your Internet-in-a-Box server/system``
-| ```http://box/munin`` <http://box/munin>`__\ ``               Network/Infra monitoring``
-| ```http://box/awstats/awstats.pl`` <http://box/awstats/awstats.pl>`__\ ``  Usage statistics``
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box                   |Your Internet-in-aBox Library!                                                   |
+|                             |                                                                                 |
+|                             |                                                                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/usb               |Content from USB sticks/drives, that teachers                                    |
+|                             |can insert anytime                                                               |
+|                             |                                                                                 |
+|                             |                                                                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box:3000              |Kiwix (amazing content & videos, contained in                                    |
+|                             |searchable ZIM files)                                                            |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box:8008              |KA Lite (Khan Academy videos & exercises,                                        |
+|                             |with its own content downloader)                                                 |
+|                             |                                                                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box:8080              |E-book library, based on `calibre-server                                        |
+|                             |<https://manual.calibre-ebook.com/generated/en/calibre-server.html>`__           |
+|                             |(http://box:8010 is also possible)                                               |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/maps              |Future synonym for http://box/iiab/static/map.html or                            |
+|                             |http://box/modules/en-worldmap/map.html                                          |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/docs              |Future synonym for http://box/nextcloud or http://box/owncloud                   |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/wiki              |DokuWiki: collaborate on documents                                               |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/elgg              |Elgg social network for e-learning                                               |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/info              |IT support docs & eventually vids, offlined for all                              |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/books             |Future synonym for http://box:8010 or http://box:8080 or http://box/pathagar     |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/moodle            |Moodle 3.1 LTS (learning management system)                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/wordpress         |WordPress 4.8+ (blogging & community publishing)                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/runestone         |Runestone Interactive Textbooks (`example                                        |
+|                             |<http://interactivepython.org/runestone/static/thinkcspy/index.html>`__)         |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/sugarizer         |Sugar Learning Platform originally from One Laptop Per Child                     |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/admin             |Admin Console: operators log in here, to improve your Internet-in-a-Box          |
+|                             |server/system                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/munin             |Network/Infra monitoring                                                         |
+|                             |                                                                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+|http://box/awstats/awstats.pl|Usage statistics                                                                |
+|                             |                                                                                |
++-----------------------------+---------------------------------------------------------------------------------+
 
 In the future, we hope the
 `Pathagar <https://github.com/PathagarBooks>`__ `"E-book
@@ -118,7 +145,10 @@ memory sticks and USB drives anytime. Somewhat like an informal
 projector, the teacher's content appears to students almost instantly
 at:
 
-```http://box/usb`` <http://box/usb>`__
++--------------------+
+|http://box/usb      |
+|                    |
++--------------------+
 
 Instructions:
 
@@ -132,14 +162,16 @@ Instructions:
    cannot access http://box/usb, and so require that students type in
    http://box.lan/usb or http://172.18.96.1/usb
 
+
 Note it's OK to insert multiple USB sticks/drives at the same time. If
 so, content from each USB stick/drive is visible within http://box/usb,
 e.g. in sub-folders that will be obvious, like the following:
 
 ::
 
-    http://box/usb/USB0
-    http://box/usb/USB1
+
+  http://box/usb/USB0
+  http://box/usb/USB1
 
 More details in the `Install
 Doc <https://github.com/iiab/iiab/wiki/IIAB-Installation#external-usbdrive-content>`__.
@@ -148,11 +180,13 @@ see an old error as follows, it is safe to ignore it:
 
 ::
 
-    Unable to mount 2.0 GB Volume
-    Device /dev/sdb1 us already mounted at '/media/usb0'.
+
+  Unable to mount 2.0 GB Volume
+  Device /dev/sdb1 us already mounted at '/media/usb0'.
 
 See: `How do I customize my school server's start
 page? <#How_do_I_customize_my_school_server.27s_start_page.3F>`__
+
 
 What hardware should I use?
 ---------------------------
@@ -314,15 +348,9 @@ To install `Internet-in-a-Box (IIAB) 6.3 <../6.3>`__ onto
 `Raspbian <https://www.raspberrypi.org/downloads/raspbian/>`__ on a $35
 Raspberry Pi 3 computer, run our 1-line installer:
 
-.. raw:: html
+::
 
-   <center>
-
-``  curl ``\ ```download.iiab.io/6.3/rpi/load-lite.txt`` <http://download.iiab.io/6.3/rpi/load-lite.txt>`__\ `` | sudo bash``
-
-.. raw:: html
-
-   </center>
+  curl http://download.iiab.io/6.3/rpi/load-lite.txt | sudo bash
 
 This takes about an hour if you have a fast connection and modern
 microSD card. *An Ethernet (live Internet) cable installed into the back
@@ -334,15 +362,9 @@ face pre-release issues (`we'll actively support you if so, get in
 touch! <#What_are_the_best_places_for_community_support.3F>`__) then
 give this a shot instead:
 
-.. raw:: html
+::
 
-   <center>
-
-``  curl ``\ ```download.iiab.io/6.4/rpi/load-lite.txt`` <http://download.iiab.io/6.4/rpi/load-lite.txt>`__\ `` | sudo bash``
-
-.. raw:: html
-
-   </center>
+  curl http://download.iiab.io/6.4/rpi/load-lite.txt | sudo bash
 
 In either above case, use "load.txt" instead of "load-lite.txt" if you
 want a more complete install (with more server apps!) noting this can
@@ -565,7 +587,10 @@ routers (to almost 40 simultaneous connections)* by trying Terry
 Gillett's SECN-XSCE firmware here: (based on
 `OpenWrt <https://openwrt.org/>`__, but far simpler)
 
-``  ``\ ```http://download.villagetelco.org/firmware/secn/unstable/tp-link/SECN-4/XSCE/`` <http://download.villagetelco.org/firmware/secn/unstable/tp-link/SECN-4/XSCE/>`__
++-----------------------------------------------------------------------------+
+| http://download.villagetelco.org/firmware/secn/unstable/tp-link/SECN-4/XSCE/|
+|                                                                             |
++-----------------------------------------------------------------------------+
 
 April 2016's RC3 firmware release is increasingly stable: strongly
 consider it or more recent. It should be followed shortly by a
@@ -581,7 +606,10 @@ OpenWrt-based version to another.
 There is also a wiki page outlining how to use PoE (Power over Ethernet)
 and how to daisy-chain multiple such routers together:
 
-``  ``\ ```http://wiki.villagetelco.org/Power_over_Ethernet_for_MP02_and_TP-Link_Routers`` <http://wiki.villagetelco.org/Power_over_Ethernet_for_MP02_and_TP-Link_Routers>`__
++-----------------------------------------------------------------------------+
+|http://wiki.villagetelco.org/Power_over_Ethernet_for_MP02_and_TP-Link_Routers|
+|                                                                             |
++-----------------------------------------------------------------------------+
 
 Most important: take advantage of community support, where volunteers
 are eager to help on the
@@ -1061,7 +1089,7 @@ calls, <http://iiab.io/t/offliners-anonymous-crushing-it-content-yet/48>`__
 typically on the 1st and 3rd Saturday of each month.
 
 \ *Note this section below will be overhauled in 2017, as our work
-accelerates into important new areas.*\ 
+accelerates into important new areas.*\
 
 Take seriously the `"Features
 Planned" <XS_Community_Edition/Features#Features_Planned>`__ section of

@@ -133,7 +133,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Arimo", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #333333;
   background-color: #ffffff;
 }
@@ -321,7 +321,7 @@ a:hover {
 }
 p {
   margin: 11.5px 0 11.5px;
-  font-family: "Arimo", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 18px;
   line-height: 23px;
 }
@@ -906,7 +906,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Arimo", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 label {
   display: block;

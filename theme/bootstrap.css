@@ -342,7 +342,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility;

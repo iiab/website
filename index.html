@@ -1,106 +1,616 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Internet-in-a-Box</title>
-    <link rel="stylesheet" type="text/css" href="/theme/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/theme/pastie.css" />
-    <link href="https://internet-in-a-box.org/" type="application/atom+xml" rel="alternate" title="Internet-in-a-Box Atom Feed" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Internet in a Box - Mandela's Library of Alexandria</title>
+    <meta
+      name="title"
+      content="Internet-in-a-Box - Mandela's Library of Alexandria"
+    />
+    <meta
+      name="description"
+      content="Internet-in-a-Box is a tiny, powerful 'Digital Library of Alexandria' that can be set up by any school, medical clinic or community worldwide."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://internet-in-a-box.org/" />
+    <meta
+      property="og:title"
+      content="Internet-in-a-Box - Mandela's Library of Alexandria"
+    />
+    <meta
+      property="og:description"
+      content="Internet-in-a-Box is a tiny, powerful 'Digital Library of Alexandria' that can be set up by any school, medical clinic or community worldwide."
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://internet-in-a-box.org/" />
+    <meta
+      property="twitter:title"
+      content="Internet-in-a-Box - Mandela's Library of Alexandria"
+    />
+    <meta
+      property="twitter:description"
+      content="Internet-in-a-Box is a tiny, powerful 'Digital Library of Alexandria' that can be set up by any school, medical clinic or community worldwide."
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
   </head>
-  
+
   <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <div class="row">
-            <div class="span12">
-              <a id="forkme_banner" href="https://github.com/iiab/iiab">View on GitHub</a>
-              
-              <h1 class="brand">Internet in a Box<sup><sup>&reg;</sup></sup></h1>
-              
-              <b><i>Mandela's Library of Alexandria</i></b><!--h2 class="brand">Sharing the World's Free Knowledge</h2-->
-              
-              <h1 class="brand"><sub><sub>Build one today. Ship it tomorrow. Transform a Community Forever.</sub></sub></h1>
-              
-              <ul class="nav"></ul>
-              <ul class="nav pull-right">
-                <li><a href="/">Home</a></li>
-                <li><a target="_blank" href="https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g">YouTube</a></li>
-                <li><a target="_blank" href="https://download.iiab.io/">Download</a></li>
-                <li><a target="_blank" href="https://wiki.iiab.io/go/FAQ">FAQ</a></li>
-                <!--li><a href="/news.html">News</a></li-->
-                <!--li><a href="/pages/about.html">About</a></li-->
-                <li><a href="/pages/contributing.html">Contributing</a></li>
-              </ul>
-              
+    <!-- Above Navbar -->
+    <div
+      class="fw-bold above-navbar py-2 fst-italic bg-secondary bg-gradient text-white"
+    >
+      <div class="container-xl">Mandela's Library of Alexandria</div>
+    </div>
+    <!-- Above Navbar End -->
+
+    <!-- Navbar -->
+    <header
+      class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient sticky-top"
+    >
+      <div class="container-xl">
+        <a class="navbar-brand fw-bold fs-4" href="./">
+          Internet in a Box&hairsp;&hairsp;<sup><small>&reg;</small></sup
+          ><br />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars open"></i>
+          <i class="fas fa-times close"></i>
+          <span class="visually-hidden">Open Menu</span>
+        </button>
+        <div class="collapse navbar-collapse navigation" id="navbarContent">
+          <ul
+            class="navbar-nav justify-content-end ms-auto mb-2 mb-lg-0 fw-bold"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="./">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://IIAB.Community"
+                rel="noopener"
+                target="_blank"
+                >Community</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://wiki.iiab.io/go/FAQ"
+                rel="noopener"
+                target="_blank"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://download.iiab.io/"
+                rel="noopener"
+                target="_blank"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contributing.html">Contributing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Intro Area -->
+    <section class="intro-area container-xl">
+      <div class="row align-items-center">
+        <!-- Carousel -->
+        <div class="col-lg-6 mt-3">
+          <div
+            id="carouselDarkVariant"
+            class="carousel carousel-fade carousel-dark"
+            data-bs-interval="false"
+            data-bs-ride="false"
+          >
+            <div class="carousel-inner gy-2">
+              <div class="carousel-item active">
+                <div class="ratio ratio-4x3">
+                  <iframe
+                    title="Offline Innovation: Bridging the Digital Divide in Latin America"
+                    class="video-in-this-1"
+                    src="https://www.youtube.com/embed/xI3Ed008Mxo"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="ratio ratio-4x3">
+                  <iframe
+                    title="Internet-in-a-Box Introduction"
+                    class="video-in-this-2"
+                    src="https://www.youtube.com/embed/S79H7vYRMuM"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="ratio ratio-4x3">
+                  <video
+                    id="video-60029-1"
+                    poster="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Internet_in_a_Box.webm/1920px-seek%3D46-Internet_in_a_Box.webm.jpg"
+                    preload="metadata"
+                    controls="controls"
+                  >
+                    <source
+                      type="video/webm"
+                      src="https://upload.wikimedia.org/wikipedia/commons/1/17/Internet_in_a_Box.webm?_=1"
+                    />
+                    <a
+                      href="https://upload.wikimedia.org/wikipedia/commons/1/17/Internet_in_a_Box.webm"
+                    ></a>
+                  </video>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center pt-3">
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselDarkVariant"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselDarkVariant"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel End -->
+
+        <div class="col-lg-6 mt-3 ps-3">
+          <div class="mb-3 text-center h1 fw-bold"><!--"class="m-3 col-md-4"-->
+            <!--p class="h1 fw-bold"><!--span class="emphasize"--><!--center-->
+            <span class="text-nowrap">HOW TO PUT THE</span>
+            <span class="text-nowrap">INTERNET IN A BOX</span>
+            <!--/p-->
+          </div>
+
+          <!--p><h5>
+            Internet-in-a-Box is a tiny, powerful “Digital Library of
+            Alexandria” — that can be set up by any school, medical
+            clinic or community worldwide.
+          </h5></p-->
+
+          <p class="h4">
+            Internet-in-a-Box “learning hotspots” are used in
+            <!--a
+              target="_blank"
+              rel="noopener"
+              href="https://wiki.iiab.io/go/FAQ#Where_is_Internet-in-a-Box_used.3F"
+              -->dozens of countries<!--/a
+            -->, to give
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://youtu.be/HkeS_EAIpv4"
+              >everyone</a
+            >
+            a chance, e.g. <!--for example--> in
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://medium.com/eka-foundation/en-meshed-in-la-la-land-part-1-34e0ce29ea1b"
+              >remote mountain villages</a
+            >
+            in India.
+          </p>
+
+          <p class="h4">
+            It works without internet —
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.bbc.co.uk/programmes/w3cszv1s"
+              >like a community fountain, but for the mind</a
+            >
+            — wirelessly serving anyone nearby with a smartphone, tablet
+            or laptop.
+          </p>
+
+          <!--p><h5><b-->
+            <!--Listen to the-->
+            <!--span class="emphasize"--><!--b-->
+              <!-- BBC podcast:
+              <a
+                rel="noopener"
+                href="https://www.bbc.co.uk/programmes/w3cszv1s"
+                target="_blank"
+                >“How to put the internet in a box”</a
+              > -->
+            <!--/b--><!--/span-->
+            <!--for an excellent 23-minute summary on how this works in different
+            countries.-->
+          <!--/b></h5></p-->
+
+            <!-- You can install an Internet-in-a-Box "learning hotspot" anywhere in
+            the world — even under solar power, using almost any hardware.
+            You can
+            <span class="emphasize">quickly create any digital library</span>
+            needed by your school, your region, and/or your very own family! -->
+          <!--p>
+            Internet-in-a-Box helps communities
+            <a
+              rel="noopener"
+              href="#quality-content"
+              >add the very best learning content available</a
+            >
+            including Wikipedia, Khan Academy, OpenStreetMap, E-Books etc.
+          </p-->
+
+          <!-- <p>
+            offline Wi-Fi "learning hotspot"
+            Internet-in-a-Box brings the very best of the World’s Free
+            Knowledge (Wikipedia, Khan Academy, OpenStreetMap, E-Books and many
+            others) to those who are offline — anybody nearby with an old
+            smartphone, tablet or laptop.  Come join us and transform a community
+            (or three) forever!
+          </p> -->
+
+          <p class="h4">
+              Now you too can <a href="#easy-install"><!-- class="text-decoration-underline" -->put the internet in a box</a>
+              and customize it with the
+            <a href=#quality-content>very best free content</a>
+            for your school, clinic or family!
+            <!--Or
+            <a
+              rel="noopener"
+              target="_blank"
+              href="https://mdwiki.org/wiki/WikiProjectMed:Internet-in-a-Box/Buy"
+              >buy one</a
+            >
+            if you prefer.-->
+          </p>
+
+          <!--p>
+            Then customize it as your very own family's bookshelf, power it
+            using solar energy &mdash; <i>help your neighbors to connect</i>
+            &mdash; And Inspire The Next Generation To Learn!
+          </p-->
+        </div>
+      </div>
+    </section>
+    <!-- Intro Area End -->
+
+    <!-- Examples -->
+    <section class="example container-xl mt-5">
+      <div class="row">
+        <div class="col-md-4 text-center" data-aos="fade-up">
+          <figure>
+            <img
+              src="assets/images/example-seagate.jpg"
+              alt="Handheld portable hard disk, that includes a Wi-Fi hotspot"
+              class="img-fluid d-block w-100"
+            />
+            <figcaption>
+              <!--Learning Gems in a Box + Local Wi-Fi-->Internet-in-a-Box = Learning Gems + Local Wi-Fi
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4 text-center" data-aos="fade-up">
+          <figure>
+            <img
+              src="assets/images/example-rpi.jpg"
+              alt="Raspberry Pi in a clear case, connected to an orange battery bank"
+              class="img-fluid d-block w-100"
+            />
+            <figcaption>
+              Internet-in-a-Box on a $35 Raspberry Pi computer, our
+              <a
+                rel="noopener"
+                href="https://wiki.iiab.io/go/FAQ#What_hardware_should_I_use.3F"
+                target="_blank"
+                >most popular!</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4 mt-3 text-center" data-aos="fade-up" >
+          <figure>
+            <a href="https://mdwiki.org/wiki/WikiProjectMed:Internet-in-a-Box/Buy">
+              <img
+                src="assets/images/example-rpi-med.jpg"
+                alt="Medical and Health Internet-in-a-Box (Raspberry Pi Zero W in a red and white case)"
+                class="img-fluid d-block w-100"
+              />
+            </a>
+            <figcaption>Clinics prefer the $10 Raspberry Pi Zero W</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Examples End -->
+
+    <!-- Cards -->
+    <section class="benefits container-xl mt-5">
+      <div class="row">
+        <div id="easy-install" class="col-lg-4 mt-3" data-aos="fade-up">
+          <div class="card">
+            <img
+              src="assets/images/card-install.jpg"
+              class="card-img-top img-fluid d-block w-100"
+              alt="Man working with Internet-in-a-Box home page"
+            />
+            <div class="card-body">
+              <h2 class="card-title text-center">Easy Install</h2>
+              <p class="card-text">
+                If you have a Raspberry Pi, install a recent Internet-in-a-Box
+                <a
+                  href="https://github.com/iiab/iiab/wiki/Raspberry-Pi-Images:-Summary"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  direct to your microSD card</a
+                >.
+                On a Linux PC, install Internet-in-a-Box from
+                <a
+                  href="https://download.iiab.io"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  download.iiab.io</a
+                >.
+                Our free and open source software is available from
+                <a
+                  href="https://github.com/iiab"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  github.com/iiab</a
+                >.
+              </p>
+
+              <p class="card-text">
+                Don't forget to install
+                <a href="https://github.com/iiab/iiab/wiki/IIAB-Maps" rel="noopener" target="_blank">
+                  OpenStreetMap and Satellite Photos</a>
+                for your continent or region(s).  Also read our
+                <a
+                  href="https://github.com/iiab/iiab/wiki"
+                  rel="noopener"
+                  target="_blank"
+                >
+                  tech docs</a
+                >
+                and consider our
+                <a
+                  rel="noopener"
+                  href="https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g"
+                  target="_blank"
+                >
+                  YouTube channel</a
+                >.
+              </p>
+
+              <p class="card-text">
+                Check out “What are the best places for community support?” at
+                <a
+                  href="https://wiki.iiab.io/go/FAQ"
+                  rel="noopener"
+                  target="_blank"
+                  >FAQ.IIAB.IO</a
+                >
+                with ~50 questions and answers — <i>as you put together
+                the best digital learning hotspot, Most Suitable
+                For Your Community!</i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="quality-content" class="col-lg-4 mt-3" data-aos="fade-up">
+          <div class="card">
+            <img
+              src="assets/images/card-quality-content.jpg"
+              class="card-img-top img-fluid d-block w-100"
+              alt="Internet-in-a-Box learning content examples"
+            />
+            <div class="card-body">
+              <h2 class="card-title text-center">Quality Content</h2>
+              <p class="card-text">
+                Internet-in-a-Box shows you the latest Content Packs
+                installable in the languages your community needs (from online
+                libraries like
+                <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Kiwix#Available_content">Kiwix</a>,
+                <a target="_blank" rel="noopener" href="https://oer2go.org/">OER2Go</a>,
+                <a target="_blank" rel="noopener" href="https://archive.org/">Archive.org</a>)
+                then takes care of all the downloading details for you!
+              </p>
+
+              <p class="card-text">
+                See
+                <a href="http://iiab.me/mexico/" rel="noopener" target="_blank">
+                  Mexico's live demo</a
+                >
+                and our
+                <a href="http://med.iiab.me" rel="noopener" target="_blank">
+                  medical examples</a
+                >
+                used by clinics in Asia and Africa especially, as hosted by
+                Wikipedia.
+              </p>
+
+              <p class="card-text">
+                Schools can also choose among
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://wiki.iiab.io/go/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F"
+                >
+                  almost 40 powerful apps</a
+                >
+                for teachers and students — optionally with a complete LMS
+                (learning management system) like Kolibri, Moodle, Nextcloud,
+                Sugarizer or WordPress.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="friendly-community" class="col-lg-4 mt-3" data-aos="fade-up">
+          <div class="card">
+            <img
+              src="assets/images/card-community.jpg"
+              class="card-img-top img-fluid d-block w-100"
+              alt="Two Haitian schoolgirls working on a laptop"
+            />
+            <div class="card-body">
+              <h2 class="card-title text-center">Friendly Community</h2>
+              <p class="card-text">
+                Internet-in-a-Box is a
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Internet-in-a-Box"
+                  target="_blank"
+                >
+                  community product</a
+                >
+                enabled by professional volunteers working
+                <a
+                  rel="noopener"
+                  href="https://wiki.iiab.io/go/FAQ#What_are_the_best_places_for_community_support.3F"
+                  target="_blank"
+                >
+                  side-by-side</a
+                >
+                with schools, clinics and libraries around the world — and the
+                Wikipedia community especially.
+              </p>
+
+              <p class="card-text">
+                Thank you <i>everyone</i> for humbly being part of this
+                <a href="http://OFF.NETWORK" rel="noopener" target="_blank">
+                  OFF.NETWORK</a
+                >
+                <!--humanitarian-->grassroots learning<!--technology-->
+                <a
+                  rel="noopener"
+                  href="https://mdwiki.org/wiki/WikiProjectMed:Internet-in-a-Box"
+                  target="_blank"
+                >
+                  movement</a
+                >.
+              </p>
+
+              <p class="card-text">
+                Please consider
+                <a href="contributing.html" target="_blank">
+                  how you too might assist</a
+                >
+                <!--making a difference in-->
+                this epic effort.
+                It's astonishing how far we've come since Internet-in-a-Box's
+                original demo in 2013 — <i>and how far we will go together,
+                If You Too Can Help!</i>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="span12">
-          <!--h1></h1-->
-          
-          <p>Internet-in-a-Box brings the power of a free Digital Library of Alexandria into the hands of any school, hospital, or community worldwide:</p>
-          <center><video class="wp-video-shortcode" id="video-60029-1" width="640" height="360" poster="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Internet_in_a_Box.webm/1920px-seek%3D46-Internet_in_a_Box.webm.jpg" preload="metadata" controls="controls"><source type="video/webm" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Internet_in_a_Box.webm?_=1" /><a href="https://upload.wikimedia.org/wikipedia/commons/1/17/Internet_in_a_Box.webm">https://upload.wikimedia.org/wikipedia/commons/1/17/Internet_in_a_Box.webm</a></video></center>
-          
-          <p>Internet-in-a-Box is also used in libraries and medical clinics, as can be seen in this Dominican Republic video:</p>
-          <center><iframe width="640" height="360" src="https://www.youtube.com/embed/xI3Ed008Mxo" frameborder="0" allowfullscreen></iframe></center>
-          
-          <p>Here is a great 94-second introduction to Internet-in-a-Box:</p>
-          <center><iframe width="640" height="360" src="https://www.youtube.com/embed/S79H7vYRMuM" frameborder="0" allowfullscreen></iframe></center>
-          
-          <p>Listen to the <b><i><a href=https://www.bbc.co.uk/programmes/w3cszv1s>BBC podcast "How to put the internet in a box"</a></i></b> for an excellent 23-minute summary of how this works in different countries, around the world.</p>
-          
-          <p>In short, Internet-in-a-Box brings the very best of the World’s Free Knowledge (Wikipedia, Khan Academy, OpenStreetMap, E-Books and many others) to those who are offline &mdash; e.g. anybody nearby with an old smartphone, tablet or laptop.</p>
-          
-          <p>Internet-in-a-Box is in use in <a href=https://wiki.iiab.io/go/FAQ#Where_is_Internet-in-a-Box_used.3F>more than 20 countries</a>, including <a target="_blank" href=https://medium.com/eka-foundation/en-meshed-in-la-la-land-part-1-34e0ce29ea1b>remote mountain villages in India</a> (<a target="_blank" href=https://youtu.be/HkeS_EAIpv4>video</a>).</p>
-          
-          <p>You can install an Internet-in-a-Box &quot;learning hotspot&quot; anywhere in the world &mdash; even under solar power, using very diverse hardware.  Here is just one example, using a terabyte hard drive with built-in hotspot:</p>
-          <center><img alt="IIAB built with HDD" src="https://internet-in-a-box.org/static/images/Seagate_WP_on_fingertips.jpg" /></center>
-          
-          <p>Here is another example, using a $35 Raspberry Pi computer, one of our favorites among several <a href=https://wiki.iiab.io/go/FAQ#What_hardware_should_I_use.3F>hardware recommendations</a>:</p>
-          <center><img alt="IIAB built with Raspberry Pi 3" src="https://internet-in-a-box.org/static/images/IMG_3468.jpg" /></center>
-          
-          <p>Medical clinics prefer Internet-in-a-Box built with the $10 Raspberry Pi Zero W computer:</p>
-          <center><a target="_blank" href=https://www.thingbits.net/products/medical-and-health-internet-in-a-box-south-asia-edition><img alt="IIAB built with Raspberry Pi Zero W" src="https://internet-in-a-box.org/static/images/iiab-promo-s.png" width="640" /></a></center>
-          
-          <p>You can <a target="_blank" href=https://mdwiki.org/wiki/WikiProjectMed:Internet-in-a-Box/Buy>buy one</a> of several common versions, or better yet <b><i>quickly create any digital library</i></b> needed by your school, your region and/or your very own family!</p>
-          
-          <p>Internet-in-a-Box provides you the tools to DIY (download and customize) this offline Wi-Fi "learning hotspot" or server, <a href=https://github.com/iiab/iiab/wiki/IIAB-Installation#add-content>adding the quality content</a> you need &mdash; whether locally sourced or downloaded.</p>
-          
-          <center><h1 id="quality-content">Quality Content</h1></center>
-          
-          <p>Our Admin Console shows you the latest Content Packs that are installable in the languages you need, e.g. from online "libraries" like <a target="_blank" href=https://en.wikipedia.org/wiki/Kiwix#Available_content>Kiwix</a> and <a target="_blank" href="http://oer2go.org/">OER2Go</a>, and then takes care of all the details downloading and installing <i>for you</i> over the coming hours.</p>
-          
-          <p>See <a href="http://iiab.me/mexico/">Mexico's live demo</a> and these <a href=http://med.iiab.me>medical examples</a> used by clinics in Asia and Africa especially, as hosted by the Wikimedia Foundation (Wikipedia).</p>
-          
-          <p>In addition, schools can choose among <a href=https://wiki.iiab.io/go/FAQ#What_services_.28IIAB_apps.29_are_suggested_during_installation.3F>almost 40 powerful apps</a> for teachers and students &mdash; optionally with a complete LMS (learning management system) like Kolibri, Moodle, WordPress, Sugarizer or Nextcloud.</p>
-          
-          <center><h1 id="easy-install">Easy Install</h1></center>
-          
-          <p>The free and open source software to install your own Internet-in-a-Box (IIAB) is available from <a href=https://github.com/iiab>github.com/iiab</a> and <a href=https://download.iiab.io>download.iiab.io</a></p>
-          
-          <p>Please see "What are the best places for community support?" at <a href=https://wiki.iiab.io/go/FAQ>FAQ.IIAB.IO</a> which has almost 50 questions and answers to help you along the way, as you put together the digital learning hotspot most suitable for your own community.</p>
-          
-          <p>Implementers should also read our <a href=https://github.com/iiab/iiab/wiki>tech docs</a> and consider our <a target="_blank" href=https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g>YouTube channel</a>.</p>
-          
-          <center><h1 id="friendly-community">Friendly Community</h1></center>
-          
-          <p>Internet-in-a-Box is a <a href=https://en.wikipedia.org/wiki/Internet-in-a-Box>community product</a> enabled by professional volunteers working <a href=https://wiki.iiab.io/go/FAQ#What_are_the_best_places_for_community_support.3F>side-by-side</a> with schools, clinics and libraries around the world &mdash; and the Wikipedia community especially &mdash; thank you <i>everyone</i> for proudly and humbly being part of this <a href=http://OFF.NETWORK>http://OFF.NETWORK</a> <!--humanitarian-->grassroots technology <a href=https://meta.wikimedia.org/wiki/Internet-in-a-Box>movement</a>.</p>
-          
-          <p>Please consider <a href=pages/contributing.html>how you might assist</a> <!--making a difference in--> this epic effort bringing about 21st century global literacy.  It's already astonishing how far we've come since Internet-in-a-Box's original demo in 2013 — and how far we will go if you too can help:</p>
-          <center><iframe width="640" height="360" src="https://www.youtube.com/embed/KAADBRZVncs" frameborder="0" allowfullscreen></iframe></center>
-          
-          <p>Thank you <i>everyone</i> who is enabling offline access to the Internet and the World's Free Knowledge jewels &mdash; as well as "Sneakernet-of-Alexandria" distribution of local/indigenous content &mdash; when our hyperconnected modernity does <i>not</i> always serve grassroots <i>or</i> global voices.</p>
-          
-          <p>If you can help in any capacity, we hope to <a href=pages/contributing.html>hear from you soon</a> !</p>
-          
+    </section>
+    <!-- Card End -->
+
+    <!-- Footer -->
+    <footer class="bg-dark bg-gradient mt-3">
+      <div class="container-xl">
+        <div class="row align-items-center">
+          <div class="col-md-8 text-center text-md-start">
+            <span class="text-nowrap">Build one today.</span>
+            <span class="text-nowrap">Transform a Community Forever.</span>
+            <!--span>Build one today. </span><br class="responsive-break" /><span
+              >Transform a Community Forever.</span
+            -->
+          </div>
+          <div class="col-md-4 text-center text-md-end mt-3 mt-md-0">
+            <a href="http://iiab.community" rel="noopener" target="_blank">
+              <span class="visually-hidden">Open Discourse</span>
+              <i class="fab fa-discourse fa-2x"></i>
+            </a>
+            <a
+              rel="noopener"
+              href="https://www.youtube.com/channel/UC0cBGCxr_WPBPa3IqPVEe3g"
+              target="_blank"
+            >
+              <span class="visually-hidden">Open Youtube</span>
+              <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/internet_in_box" rel="noopener" target="_blank">
+              <span class="visually-hidden">Open Twitter</span>
+              <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com/iiab/iiab"
+              rel="noopener"
+              target="_blank"
+            >
+              <span class="visually-hidden">Open Github</span>
+              <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
       </div>
-      <!--hr /-->
-    </div>
-    
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS Files -->
+
+    <script defer src="assets/js/script.js"></script>
+    <!-- JS Files End -->
   </body>
 </html>
